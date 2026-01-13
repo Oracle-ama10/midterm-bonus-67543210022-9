@@ -63,7 +63,6 @@ npm start
 ### Frontend (Client - Local)
 ```bash
 1.Configure IP: Open frontend/js/api.js and set the VM's IP address:
-```bash
 const api = new LibraryAPI('http://<YOUR_VM_IP>:3000/api');
 ```
 ```bash
