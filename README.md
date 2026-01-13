@@ -65,9 +65,8 @@ npm start
 ```bash
 const api = new LibraryAPI('http://<YOUR_VM_IP>:3000/api');
 ```
-2.Run: Open frontend/index.html directly in your browser. (Optional: You can 
+2.Run: Open frontend/index.html directly in your browser. (Optional: You can use Live Server or Python HTTP server)
 ```bash
-use Live Server or Python HTTP server)
 # Optional
 cd frontend
 python3 -m http.server 8000
