@@ -61,12 +61,13 @@ npm install
 npm start
 ```
 ### Frontend (Client - Local)
-```bash
 1.Configure IP: Open frontend/js/api.js and set the VM's IP address:
+```bash
 const api = new LibraryAPI('http://<YOUR_VM_IP>:3000/api');
 ```
+2.Run: Open frontend/index.html directly in your browser. (Optional: You can 
 ```bash
-2.Run: Open frontend/index.html directly in your browser. (Optional: You can use Live Server or Python HTTP server)
+use Live Server or Python HTTP server)
 # Optional
 cd frontend
 python3 -m http.server 8000
